@@ -19,10 +19,23 @@
         display: flex;
         justify-content: space-around;
       }
+    
+    @media (max-width: 640px) {
+      ul {
+        flex-direction: column;
+        gap: 1.5em;
+      }
+    }
 
       li {
         flex-basis: 10rem;
         list-style-type: none;
+      }
+
+      @media (max-width: 640px) {
+        li {
+          flex-basis: auto;
+        }
       }
     </style>
   </head>

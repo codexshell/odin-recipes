@@ -177,6 +177,10 @@ li {
   list-style-position: inside;
 }
 
+img {
+  max-width: 100%;
+}
+
 .nav-item {
   display: inline-block;
 }
